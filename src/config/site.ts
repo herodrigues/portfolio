@@ -24,13 +24,13 @@ export const SETTINGS: SettingsConfig = {
 };
 
 const umami: UmamiAnalyticsConfig = {
-    websiteId: "", // e.g., 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
+    websiteId: "40e52803-0d6b-4f0d-8d7a-28d13a1d0bed", // e.g., 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx'
     src: "https://cloud.umami.is/script.js", // Default Umami cloud script URL
 }
 
 export const ANALYTICS: AnalyticsConfig = {
     // Google Analytics 4 Measurement ID (e.g., 'G-XXXXXXXXXX')
-    ga4Id: "",
+    ga4Id: "G-9YTYVBE9Q6",
     // Umami Analytics configuration
     umami: umami
 };
